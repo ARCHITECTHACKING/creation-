@@ -1,0 +1,175 @@
+body{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    height:80px;
+    padding-top:30px;
+    text-align:center;
+    border-top:2px solid #808FF8;
+    background-image:url("anime.jpg");
+    border-bottom:2px solid #808FF8;
+    
+}
+nav{
+    width:100%;
+    background-color:#C0C0C0;
+}
+nav ul{
+    margin:0px;
+    padding:0px;
+}
+nav li{
+    list-style-type:none;
+    float:left;
+}
+nav a{
+    display:inline-block;
+    text-decoration:none;
+    padding:20px 30px;
+    color:#808000;
+    text-transform:uppercase;
+    font-size:15px;
+}
+.para{
+    display:table;
+    margin:0 auto;
+}
+
+.projet{
+    border-top:5px solid #00FFFF;
+    background-color:RGBa(64,200,130,0.15);
+}
+.contactez-moi{
+    border-top:5px solid pink;
+    background-color:RGBa(64,200,130,0.15);
+}
+.produits{
+    border-top:5px solid #00FF00;
+    background-color:RGBa(000,112,192,0.15);
+}
+.contact{
+    border-top:5px solid #0070BB;
+    background-color:RGBa(228,77,38,0.15);
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+@media screen and(max-width:780px){
+    header{
+        height:50px;
+    }
+    h1{
+        font-size:28px;
+    }
+    nav li a{
+        font-size:12px;
+        padding:10px;
+    }
+    nav li:hover a{
+        padding:5px 10px 10px 10px;
+    }
+}
+.haute{
+    background-image: url("rikoudo (2).png");
+    background-size:100%;
+}
+ .basse{
+    background-image: url("tanjuro.jpg");
+    background-size:100%;
+ }
+ .très{
+    background-image: url("flammes2.jpg");
+    background-size:100%;
+    color:#FF4901;
+ }
+ .trèss{
+    background-image: url("noire.jpg");
+    background-size:100%;
+    color:black;
+ }
+ .trèsss{
+    background-image: url("assaut.jpg");
+    background-size:100%;
+ }
+ .bass{
+    background-image: url("reaper1.jpg");
+    background-size:100%;
+ }
+ .nezuko{
+    background-image: url("famille.jpg");
+    background-size:100%;
+ }
+   
+  .u{
+    background-image: url("zenitsu.jpg");
+    background-size:100%;
+ }
+ .es{
+   background-image: url("produit.jpg");
+   background-size:100%;
+ }
+   .s{
+    background-image: url("shinra.jpg");
+    background-size:100%;
+   }
+   .a{
+    background-image: url("bete.jpg");
+    background-size:100%;
+   }
+ section{
+  width:100%;
+  min-height:300px;
+  padding-bottom:10px;
+  margin-bottom:10px;
+ }
+ .normal{
+  color:silver;
+  font-size: 25px;
+ }
+ .cleft{
+  color: yellow;
+ }
+ .h1{
+  width:100%;
+  height:75px;
+  background-color:orange;
+  padding:75px;
+  border:0px solid black;
+  -webkit-transition:background-color:orange ,2s;
+  
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .h1:hover {
+  background-color: green;
+  cursor: pointer;
+}
+ h1 , .h1{
+  text-decoration:underline;
+  text-align:center;
+ }
+ 
+
+.all{
+ overflow:hidden;
+}
+@keyframes cool{
+ 0%{transform: translate(0,0)}
+ 100%{transform: translate(-2880px,0)}
+}
+.hau{
+   background-image: url("fond.jpg");
+   background-size:100%;
+}
+.se{
+   background-image: url("ichigo.jpg");
+   background-size:100%;
+}
+.si{
+   background-image: url("jou.png");
+   background-size:100%;
+}
+.es{
+   background-image: url("portrait.jpg");
+   background-size:100%;
+}
